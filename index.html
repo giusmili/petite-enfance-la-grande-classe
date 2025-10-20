@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>La Petite Enfance LGC</title>
+  <meta name="description" content="Accompagnement bienveillant des tout-petits et des familles." />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <!-- Polices proches du design -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <!-- Header -->
+  <header class="site-header" role="banner" aria-label="En-tête du site">
+    <div class="container header__inner">
+
+      <a href="#" class="brand" aria-label="Accueil — La Petite Enfance LGC">
+        <span class="brand__logo">LA PETITE ENFANCE <strong> : La Grande Classe</strong></span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu">
+        <span class="nav-toggle__bar"></span>
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <nav class="site-nav" aria-label="Navigation principale">
+        <ul id="menu" class="site-nav__list">
+          <li><a class="is-active" href="#hero">Accueil</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#services">Services</a></li>
+          <li class="nav-cta"><a class="btn btn--outline" href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu" class="site-main">
+    <!-- Hero -->
+    <section id="hero" class="hero" aria-label="Épanouissement des petits">
+      <figure class="hero__media" aria-hidden="true">
+        <!-- Unsplash : enfance, maternelle, lumière douce -->
+        <img
+          src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?q=80&w=1920&auto=format&fit=crop"
+          alt="hero"
+          >
+      </figure>
+
+      <div class="container hero__content">
+        <h1 class="hero__title">Épanouissement des petits</h1>
+        <p class="hero__subtitle">Un soutien essentiel pour chaque enfant</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#services">Nos services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- À propos -->
+    <section id="apropos" class="section section--split" aria-labelledby="titre-apropos">
+      <div class="container split">
+        <div class="split__text">
+          <p class="eyebrow">Engagement pour l’enfance</p>
+          <h2 id="titre-apropos" class="section__title">Un cadre pour grandir et s’épanouir</h2>
+          <p class="section__lead">
+            Nous créons un environnement bienveillant et stimulant pour les jeunes enfants,
+            avec des espaces adaptés, des activités ludiques et une équipe formée à l’écoute.
+          </p>
+        </div>
+        <figure class="split__media">
+          <img
+            src="./asset/lgc-antenne.png"
+            alt="Éducatrice entourée d’enfants en activité"
+            >
+        </figure>
+      </div>
+    </section>
+
+    <!-- Services / Cartes -->
+    <section id="services" class="section section--muted" aria-labelledby="titre-services">
+      <div class="container">
+        <p class="eyebrow">Éducation et bien-être</p>
+        <h2 id="titre-services" class="section__title">Accompagnement des tout-petits et parents</h2>
+
+        <div class="cards">
+          <!-- Carte 1 -->
+          <article class="card">
+            <figure class="card__media">
+              <img
+                src="https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1172"
+                alt="Jeux d’éveil en groupe"
+                width="1200" height="800" />
+            </figure>
+            <div class="card__body">
+              <h3 class="card__title">
+                Garde d’enfants <span aria-hidden="true">›</span>
+              </h3>
+              <p class="card__text">Un environnement sécurisé et stimulant pour vos enfants.</p>
+            </div>
+          </article>
+
+          <!-- Carte 2 -->
+          <article class="card">
+            <figure class="card__media">
+              <img
+                src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?q=80&w=1200&auto=format&fit=crop"
+                alt="Atelier éducatif et créatif"
+                >
+            </figure>
+            <div class="card__body">
+              <h3 class="card__title">
+                Programmes éducatifs <span aria-hidden="true">›</span>
+              </h3>
+              <p class="card__text">
+                Des activités ludiques pour développer curiosité et autonomie : 
+                <strong class="">méthode Montessori</strong></p>
+            </div>
+          </article>
+
+          <!-- Carte 3 -->
+          <article class="card">
+            <figure class="card__media">
+              <img
+                src="https://images.unsplash.com/photo-1596066190600-3af9aadaaea1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1169"
+                alt="Échanges entre parents et éducateur"
+                >
+            </figure>
+            <div class="card__body">
+              <h3 class="card__title">
+                Soutien aux parents <span aria-hidden="true">›</span>
+              </h3>
+              <p class="card__text">Des ressources et ateliers pour vous accompagner au quotidien.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section" aria-labelledby="titre-contact">
+      <div class="container contact">
+        <div class="contact__form">
+          <p class="eyebrow">Nous contacter</p>
+          <h2 id="titre-contact" class="section__title">Pour toute demande d’information.</h2>
+
+          <form class="form" action="#" method="post" novalidate>
+            <div class="form__row">
+              <label for="nom">Nom <span class="req" aria-hidden="true">*</span></label>
+              <input id="nom" name="nom" type="text" required  placeholder="Nom">
+            </div>
+            <div class="form__row">
+              <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" required  placeholder="Email">
+            </div>
+            <div class="form__row">
+              <label for="tel">Téléphone <span class="req" aria-hidden="true">*</span></label>
+              <input id="tel" name="tel" type="tel" required  placeholder="Téléphone">
+            </div>
+            <div class="form__row">
+              <label for="message">Votre message</label>
+              <textarea id="message" name="message" rows="6"></textarea>
+            </div>
+
+            <div class="form__check">
+              <input id="cgv" name="cgv" type="checkbox" required>
+              <label for="cgv">J’ai lu et j’accepte les conditions générales</label>
+            </div>
+
+            <button class="btn btn--primary btn--block" type="submit">Envoyer votre demande</button>
+          </form>
+        </div>
+
+        <aside class="contact__info" aria-label="Coordonnées">
+          <div class="info-box">
+            <h3 class="info-box__title">Nous contacter</h3>
+            <ul class="info-box__list">
+              <li class="info-item">✉️ contact@lgc.example</li>
+              <li class="info-item">
+                📍 Montreuil, IDF FR
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo" aria-label="Pied de page">
+    <div class="container footer__inner">
+      <nav aria-label="Liens de pied de page">
+        <ul class="footer-nav">
+          <li><a href="#">Prendre Rendez-Vous</a></li>
+          <li><a href="#">Compléter l’admission</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+   
+  </script>
+  <script src="./js/app.js" defer></script>
+
+</body>
+</html>
